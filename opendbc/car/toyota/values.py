@@ -145,7 +145,6 @@ class CAR(Platforms):
     ],
     TOYOTA_AVALON.specs,
     dbc_dict('toyota_nodsu_pt_generated', 'toyota_adas'),
-    flags=ToyotaFlags.NO_DSU,
   )
   TOYOTA_AVALON_TSS2 = ToyotaTSS2PlatformConfig( # TSS 2.5
     [
